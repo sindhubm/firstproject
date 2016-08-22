@@ -1,12 +1,13 @@
 module.exports = function(grunt) {
     grunt.initConfig({
-     uglify: 
+     uglify:
             {
                 build:
                     {
-                        files: 
+                        files:
                             {
-                        'app/assets/build/build.min.js':['app/assets/build/build.js']
+                        'app/assets/build/build.min.js':['app/assets/build/build.js'],
+                          'app/assets/build/simar.js':['app/assets/build/build.js']
                             }
                     }
             }
