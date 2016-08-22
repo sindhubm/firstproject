@@ -6,8 +6,7 @@ module.exports = function(grunt) {
                     {
                         files:
                             {
-                        'app/assets/build/build.min.js':['app/assets/build/build.js'],
-                          'app/assets/build/simar.js':['app/assets/build/build.js']
+                            'build/build.min.js':['app/assets/js/src.js']
                             }
                     }
             }
